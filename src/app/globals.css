@@ -12,7 +12,7 @@
 
 @layer base {
   :root {
-    --background: #FAF7F0;
+    --background: #F5F7F8;
     --foreground: 240 10% 3.9%;
     --font-family: 'Inter', sans-serif;
     --card: 0 0% 100%;
