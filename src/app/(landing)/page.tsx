@@ -17,7 +17,7 @@ export default function Registration() {
       <main className="flex-1">
         {/* Title */}
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-extrabold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-feuGreen">
@@ -30,14 +30,19 @@ export default function Registration() {
                 </p>
               </div>
               <div className="space-x-4">
-                <Button className="bg-feuGold text-feuGreen hover:bg-feuGreen hover:text-feuGold">
+                <Button asChild
+                className="bg-feuGold text-feuGreen hover:bg-feuGreen hover:text-feuGold">
+                  <Link href="/registration">
                   Get Started
+                  </Link>
                 </Button>
-                <Button
+                <Button asChild
                   variant="outline"
                   className="border-green-800 text-feuGreen hover:bg-green-100"
                 >
+                  <Link href="/about-weCare">
                   Learn More
+                  </Link>
                 </Button>
               </div>
             </div>
@@ -45,7 +50,7 @@ export default function Registration() {
         </section>
         {/* Features */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-green-100">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12 text-feuGreen">
               What we provide
             </h2>
@@ -91,7 +96,7 @@ export default function Registration() {
         </section>
 
         <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-feuGreen">

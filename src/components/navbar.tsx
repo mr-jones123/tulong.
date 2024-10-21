@@ -7,7 +7,7 @@ export default function NavBar(){
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
     return (
               <header className="px-4 lg:px-6 h-16 flex items-center bg-feuGreen">
-                <Link className="flex items-center justify-center" href="#">
+                <Link className="flex items-center justify-center" href="/">
                   <GraduationCap className="h-6 w-6 text-feuGold" />
                   <span className="ml-2 text-2xl font-bold text-feuGold">weCare.</span>
                 </Link>
@@ -15,10 +15,10 @@ export default function NavBar(){
                   <Link className="text-sm font-medium hover:underline text-feuGold" href="#">
                     Features
                   </Link>
-                  <Link className="text-sm font-medium hover:underline text-feuGold" href="#">
+                  <Link className="text-sm font-medium hover:underline text-feuGold" href="/about-weCare">
                     About weCare
                   </Link>
-                  <Link className="text-sm font-medium hover:underline text-feuGold" href="#">
+                  <Link className="text-sm font-medium hover:underline text-feuGold" href="/about-acm">
                     About ACM
                   </Link>
                 </nav>
