@@ -10,8 +10,12 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import NavBar from "@/components/navbar";
-
+import Link from "next/link";
+import { useEffect } from "react";
 export default function Registration() {
+  useEffect(() => {
+    document.title = "weCare.";
+  }, []);
   return (
     <div className="flex flex-col min-h-screen">
       <NavBar />
@@ -36,7 +40,12 @@ export default function Registration() {
               </CardDescription>
             </CardHeader>
             <CardFooter>
-              <Button className="w-full bg-feuGold text-feuGreen hover:bg-feuGreen hover:text-feuGold">I am a C.S Student</Button>
+              <Button asChild
+              className="w-full bg-feuGold text-feuGreen hover:bg-feuGreen hover:text-feuGold">
+                <Link href="/computer-science">
+                  I am an CS Student
+                </Link>    
+              </Button>
             </CardFooter>
           </Card>
           <Card className="overflow-hidden w-[350px] flex flex-col">
@@ -57,7 +66,12 @@ export default function Registration() {
               </CardDescription>
             </CardHeader>
             <CardFooter>
-              <Button className="w-full bg-feuGold text-feuGreen hover:bg-feuGreen hover:text-feuGold">I am an I.T Student</Button>
+              <Button asChild
+              className="w-full bg-feuGold text-feuGreen hover:bg-feuGreen hover:text-feuGold">
+                <Link href="/information-technology">
+                  I am an I.T Student
+                </Link>    
+              </Button>
             </CardFooter>
           </Card>
         </div>

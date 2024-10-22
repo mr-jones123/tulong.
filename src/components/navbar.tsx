@@ -12,7 +12,7 @@ export default function NavBar(){
                   <span className="ml-2 text-2xl font-bold text-feuGold">weCare.</span>
                 </Link>
                 <nav className="ml-auto hidden md:flex gap-4 sm:gap-6">
-                  <Link className="text-sm font-medium hover:underline text-feuGold" href="#">
+                  <Link className="text-sm font-medium hover:underline text-feuGold" href="/features">
                     Features
                   </Link>
                   <Link className="text-sm font-medium hover:underline text-feuGold" href="/about-weCare">
