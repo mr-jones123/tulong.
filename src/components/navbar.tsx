@@ -1,56 +1,86 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import {  GraduationCap, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
+import Head from "next/head";
+export default function NavBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  return (
+    <>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <header className="bg-feuGreen text-feuGold">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between h-auto p-3 ">
+            <Link
+              href="/"
+              className="flex-shrink-0 flex justify-center items-center"
+            >
+              <Image
+                src="/weCare.jpg"
+                alt="Brand Logo"
+                width={100}
+                height={100}
+                className="w-auto h-20"
+              />
+              <h1 className="text-4xl font-black tracking-tighter">weCare.</h1>
+            </Link>
+            <nav className="hidden md:flex space-x-4">
+              <Link href="/" className="hover:underline">
+                Features
+              </Link>
+              <Link href="/certificates" className="hover:underline">
+                About weCare.
+              </Link>
+              <Link href="/projects" className="hover:underline">
+                ACM
+              </Link>
+              <Link href="/blogs" className="hover:underline">
+                The Developer
+              </Link>
+            </nav>
+            <Button className="md:hidden ml-4 bg-transparent border border-none rounded-none hover:bg-transparent" onClick={toggleMenu}>
+              {isMenuOpen ? <X  size={24} /> : <Menu size={24} />}
+            </Button>
+          </div>
+        </div>
 
-export default function NavBar(){
-    const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
-    return (
-              <header className="px-4 lg:px-6 h-16 flex items-center bg-feuGreen">
-                <Link className="flex items-center justify-center" href="/">
-                  <GraduationCap className="h-6 w-6 text-feuGold" />
-                  <span className="ml-2 text-2xl font-bold text-feuGold">weCare.</span>
-                </Link>
-                <nav className="ml-auto hidden md:flex gap-4 sm:gap-6">
-                  <Link className="text-sm font-medium hover:underline text-feuGold" href="/features">
-                    Features
-                  </Link>
-                  <Link className="text-sm font-medium hover:underline text-feuGold" href="/about-weCare">
-                    About weCare
-                  </Link>
-                  <Link className="text-sm font-medium hover:underline text-feuGold" href="/about-acm">
-                    About ACM
-                  </Link>
-                </nav>
-                <Button
-                  className="ml-auto md:hidden"
-                  variant="ghost"
-                  size="icon"
-                  onClick={() => setIsMenuOpen(!isMenuOpen)}
-                >
-                  {isMenuOpen ? (
-                    <X className="h-6 w-6 text-feuGold" />
-                  ) : (
-                    <Menu className="h-6 w-6 text-feuGold" />
-                  )}
-                </Button>
-                  {/* Conditional Rendering*/}
-              {isMenuOpen && (
-                <div className="md:hidden text-feuGreen py-2">
-                  <nav className="flex flex-col items-center gap-2">
-                    <Link className="text-sm font-medium hover:underline text-feuGold" href="#">
-                      Features
-                    </Link>
-                    <Link className="text-sm font-medium hover:underline text-feuGold" href="#">
-                    About weCare
-                    </Link>
-                    <Link className="text-sm font-medium hover:underline text-feuGold" href="#">
-                    About ACM
-                    </Link>
-                  </nav>
-                </div>
-              )}
-              </header>
-            
-    );
+        {isMenuOpen && (
+          <div className="md:hidden">
+            <nav className="px-2 pt-2 pb-4 space-y-1">
+              <Link
+                href="/"
+                className="block px-3 py-2 rounded-md hover:underline"
+              >
+                Home
+              </Link>
+              <Link
+                href="/certificates"
+                className="block px-3 py-2 rounded-md hover:underline"
+              >
+                Certificates
+              </Link>
+              <Link
+                href="/projects"
+                className="block px-3 py-2 rounded-md hover:underline"
+              >
+                Projects
+              </Link>
+              <Link
+                href="/blogs"
+                className="block px-3 py-2 rounded-md hover:underline"
+              >
+                Blogs
+              </Link>
+            </nav>
+          </div>
+        )}
+      </header>
+    </>
+  );
 }
