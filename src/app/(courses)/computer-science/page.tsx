@@ -2,6 +2,8 @@
 import NavBar from "@/components/navbar";
 import Image from "next/image";
 import Link from 'next/link';
+import firstYearLinks from "../../../../data/firstYearLinks.json"
+import secondYearLinks from "../../../../data/secondYearLinks.json"
 import {
   Accordion,
   AccordionItem,
@@ -18,11 +20,8 @@ import {
   TableFooter,
 } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
-import { useEffect } from "react";
-import {
-  firstYearCSResources,
-  secondYearCSResources,
-} from "../../static-data/route";
+
+
 import {
   Card,
   CardDescription,
@@ -30,10 +29,15 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export default function CS() {
-  useEffect(() => {
-    document.title = "weCare.";
-  }, []);
+export default function ComputerScience() {
+
+type link = {
+  uniqueCode : number,
+  name : string,
+  platform : string[],
+  link : string,
+  subject: string[]
+}
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -67,7 +71,7 @@ export default function CS() {
                 </Card>
               </Link>
 
-              <Link href="/github-student-pack">
+              <Link href="/github-starter-pack">
                 <Card className="flex items-center bg-[#EFEFEF] p-1">
                   <Image
                     src="/GitHub_Logo.png"
@@ -145,7 +149,7 @@ export default function CS() {
                         </TableRow>
                       </TableHeader>
                       <TableBody>
-                        {firstYearCSResources.map((resource) => (
+                        {firstYearLinks.map((resource : link) => (
                           <TableRow key={resource.uniqueCode}>
                             <TableCell className="px-2 md:px-4">
                               {resource.uniqueCode}
@@ -248,7 +252,7 @@ export default function CS() {
                         </TableRow>
                       </TableHeader>
                       <TableBody>
-                        {secondYearCSResources.map((resource) => (
+                        {secondYearLinks.map((resource) => (
                           <TableRow key={resource.uniqueCode}>
                             <TableCell className="px-2 md:px-4">
                               {resource.uniqueCode}

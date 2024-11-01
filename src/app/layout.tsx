@@ -4,7 +4,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "weCare.",
-  description: "myPortfolio"
+  description: "myPortfolio",
+  icons: "/favicon.ico"
 };
 export default function RootLayout({
   children,
