@@ -83,7 +83,7 @@ export default function Registration() {
                     iCare Support
                   </h3>
                   <p className="text-sm text-gray-600 text-center">
-                    Get in-touch with iCare, FEU Tech's educational resource.
+                    Get in-touch with iCare, FEU Tech&apos;s educational resource.
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-green-200 p-4 rounded-lg border col-start-2 col-end-2  hover:border-slate-300 hover:shadow-md hover:translate-y-[-10px] transition-transform duration-300">

@@ -118,10 +118,10 @@ type link = {
                 </AccordionTrigger>
                 <AccordionContent className="font-medium text-sm md:text-lg">
                   C++ will be your main programming language throughout your
-                  first year at FEU Tech. You'll learn basic programming and
-                  computing concepts, along with the foundations of C++. You’ll
+                  first year at FEU Tech. Youll learn basic programming and
+                  computing concepts, along with the foundations of C++. Yo&apos;ll
                   also work on building console-based applications with your
-                  classmates, which means that aside from coding, you'll get
+                  classmates, which means that aside from coding, you&apos;ll get
                   experience collaborating with others. As a freshman,
                   familiarizing yourself with the best and latest technological
                   trends is crucial for building your skills in the long run.
