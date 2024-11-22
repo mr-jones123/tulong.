@@ -5,7 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 export default function NavBar() {
-  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };

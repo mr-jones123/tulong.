@@ -12,9 +12,8 @@
 
 @layer base {
   :root {
-    --background: #F5F7F8;
+    --background: #f0f7f3;
     --foreground: 240 10% 3.9%;
-    --font-family: 'Inter', sans-serif;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
     --popover: 0 0% 100%;
@@ -67,15 +66,3 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
-body{
-  @apply font-sans;
-}
