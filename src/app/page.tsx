@@ -126,7 +126,8 @@ export default function Registration() {
         <section className="flex flex-col items-center gap-4 py-12">
           <h1 className="text-3xl md:text-5xl font-bold text-feuGreen">Learning Beyond the Campus.</h1>
             <h3 className="text-lg md:text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus vitae a. Eos eligendi laudantium facilis quo quia, aut quos a itaque, voluptatibus ipsa quam odio recusandae inventore quasi! Deleniti.
+                  weCare's mission is to provide you supplementary tools and resources that comes from industry experts and real-world developers.
+                  Going outside the box is the path to true learning. 
             </h3>
         </section>
       </main>
