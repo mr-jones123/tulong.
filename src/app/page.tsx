@@ -1,12 +1,8 @@
-"use client";
-import { Button } from "@/components/ui/button";  
-import { BookOpen, Code, GraduationCap, Globe } from "lucide-react";
-import Link from "next/link";
-import { useEffect } from "react";
+
 import NavBar from "@/components/navbar";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import Spline from '@splinetool/react-spline';
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
 import {
   DialogHeader,
   Dialog,
@@ -15,7 +11,6 @@ import {
   DialogDescription,
   DialogTitle
 } from "@/components/ui/dialog";
-import Image from "next/image";
 
 export default function Registration() {
 
@@ -86,12 +81,7 @@ export default function Registration() {
                     <h3 className="text-2xl">
                       Put together the best high-quality free online courses that is tailored to your year level!
                     </h3>
-                    <Image
-                      src="/3dspline.png"
-                      alt="spline"
-                      width={400}
-                      height={400}
-                    />
+                   
                   </CardContent>
                 </Card>
               </DialogTrigger>
@@ -117,12 +107,7 @@ export default function Registration() {
                       Sharpen your skills and hone your problem-solving techniques
                        with these challenging programming problems. 
                   </h3>
-                    <Image
-                      src="/3dspline.png"
-                      alt="spline"
-                      width={400}
-                      height={400}
-                    />
+                
                   </CardContent>
                 </Card>
               </DialogTrigger>
@@ -136,6 +121,13 @@ export default function Registration() {
             </Dialog>
           </div>
           
+        </section>
+
+        <section className="flex flex-col items-center gap-4 py-12">
+          <h1 className="text-3xl md:text-5xl font-bold text-feuGreen">Learning Beyond the Campus.</h1>
+            <h3 className="text-lg md:text-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis possimus vitae a. Eos eligendi laudantium facilis quo quia, aut quos a itaque, voluptatibus ipsa quam odio recusandae inventore quasi! Deleniti.
+            </h3>
         </section>
       </main>
     </div>
