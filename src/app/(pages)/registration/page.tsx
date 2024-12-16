@@ -9,7 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import NavBar from "@/components/navbar";
+import NavBar from "@/components/data-table/navbar";
 import Link from "next/link";
 import { useEffect } from "react";
 export default function Registration() {
@@ -44,32 +44,6 @@ export default function Registration() {
               className="w-full bg-feuGold text-feuGreen hover:bg-feuGreen hover:text-feuGold">
                 <Link href="/computer-science">
                   I am an CS Student
-                </Link>    
-              </Button>
-            </CardFooter>
-          </Card>
-          <Card className="overflow-hidden w-[350px] flex flex-col">
-            <div className="relative w-full h-[350px]">
-              <Image
-                src="/IT.jpg"
-                alt="Information Technology"
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
-            <CardHeader className="flex-grow">
-              <CardTitle className="text-feuGreen font-extrabold text-2xl">
-                Information Technology
-              </CardTitle>
-              <CardDescription>
-                Specialization in WMA, CC, and MMA.
-              </CardDescription>
-            </CardHeader>
-            <CardFooter>
-              <Button asChild
-              className="w-full bg-feuGold text-feuGreen hover:bg-feuGreen hover:text-feuGold">
-                <Link href="/information-technology">
-                  I am an I.T Student
                 </Link>    
               </Button>
             </CardFooter>

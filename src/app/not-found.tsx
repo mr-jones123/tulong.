@@ -1,5 +1,5 @@
 "use client"
-import NavBar from "@/components/navbar";
+import NavBar from "@/components/data-table/navbar";
 import Image from "next/image";
 export default function notFound(){
     return(

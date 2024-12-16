@@ -9,7 +9,7 @@ const inter = Inter({
 });
 export const metadata: Metadata = {
   title: "weCare.",
-  description: "myPortfolio",
+  description: "The center of all things coding.",
   icons: "/favicon.ico"
 };
 export default function RootLayout({

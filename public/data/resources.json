@@ -1,0 +1,289 @@
+[
+    {
+      "uniqueCode": "XY-001",
+      "title": "Sonny Sangha",
+      "url": "https://www.youtube.com/@sonnysangha",
+      "category": ["Web Development", "YouTuber"],
+      "about": "Sonny Sangha is a YouTuber where he makes code-along videos for real-world apps."
+    },
+    {
+      "uniqueCode": "XY-002",
+      "title": "WebDevSimplified",
+      "url": "https://www.youtube.com/@WebDevSimplified",
+      "category": ["Web Development", "YouTuber"],
+      "about": "WebDevSimplified, from the name itself, simplifies web development. He covers a wide range of topics related to the field."
+    },
+    {
+      "uniqueCode": "XY-003",
+      "title": "Joy of Code",
+      "url": "https://joyofcode.xyz",
+      "category": ["Web Development"],
+      "about": "Joy of Code offers tutorials about CSS, GitHub, Design, and JavaScript Frameworks, particularly Svelte and TypeScript."
+    },
+    {
+      "uniqueCode": "XY-004",
+      "title": "Trusted Web Activity - a way to publish PWA on Google Play",
+      "url": "https://paweldymek.com/en/post/twa-pwa-google-play",
+      "category": ["Web Development"],
+      "about": "A tutorial on how to use TWA to display Progressive Web Apps."
+    },
+    {
+      "uniqueCode": "XY-005",
+      "title": "Aceternity UI",
+      "url": "https://ui.aceternity.com/components/canvas-reveal-effect",
+      "category": ["Web Development"],
+      "about": "A collection of UI components with animations."
+    },
+    {
+      "uniqueCode": "XY-006",
+      "title": "Coolors",
+      "url": "https://coolors.co",
+      "category": ["Web Development"],
+      "about": "Color Pallete Generator"
+    },
+    {
+      "uniqueCode": "XY-007",
+      "title": "Responsive Web Design",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+      "category": ["Web Development", "Online Course"],
+      "about": "A free course to get started at web development."
+    },
+    {
+      "uniqueCode": "XY-008",
+      "title": "JavaScript Algorithms and Data Structures",
+      "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+      "category": ["Web Development", "Online Course"],
+      "about": "A free course to get started at learning JavaScript, the main language of web developers."
+    },
+    {
+      "uniqueCode": "XY-009",
+      "title": "Front End Development Libraries",
+      "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+      "category": ["Web Development", "Online Course"],
+      "about": "A free course to get started at learning Front-End Libraries like React and Redux."
+    },
+    {
+      "uniqueCode": "XY-010",
+      "title": "Back End Development and APIs",
+      "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+      "category": ["Web Development", "Online Course"],
+      "about": "A free course to get started at learning JavaScript, the main language of web developers."
+    },
+    {
+      "uniqueCode": "XY-011",
+      "title": "JavaScript Algorithms and Data Structures",
+      "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+      "category": ["Web Development", "Online Course"],
+      "about": "A free course to get started at learning JavaScript, the main language of web developers."
+    },
+    {
+      "uniqueCode": "XY-012",
+      "title": "PWA Builder",
+      "url": "https://www.pwabuilder.com",
+      "category": ["Web Development"],
+      "about": "Helps you build your PWA."
+    },
+    {
+      "uniqueCode": "XY-012",
+      "title": "PWA Builder",
+      "url": "https://www.pwabuilder.com",
+      "category": ["Web Development"],
+      "about": "Helps you build your PWA."
+    },
+    {
+      "uniqueCode": "XY-013",
+      "title": "Domain Price Checker",
+      "url": "https://pc.domains",
+      "category": ["Web Development"],
+      "about": "Checks domain value of a website."
+    },
+    {
+      "uniqueCode": "XY-015",
+      "title": "Next.js",
+      "url": "https://nextjs.org",
+      "category": ["Web Development"],
+      "about": "The ultimate full-stack JavaScript framework."
+    },
+    {
+      "uniqueCode": "XY-016",
+      "title": "NextAuth.js",
+      "url": "https://next-auth.js.org",
+      "category": ["Web Development"],
+      "about": "Authenticator for Next.js applications."
+    },
+    {
+      "uniqueCode": "XY-017",
+      "title": "React Icons",
+      "url": "https://react-icons.github.io/react-icons/",
+      "category": ["Web Development"],
+      "about": "Icons for React."
+    },
+    {
+      "uniqueCode": "XY-018",
+      "title": "Next-PWA",
+      "url": "https://www.npmjs.com/package/next-pwa",
+      "category": ["Web Development"],
+      "about": "Build Progressive Web Apps with Next.js."
+    },
+    {
+      "uniqueCode": "XY-019",
+      "title": "Node.js",
+      "url": "https://nodejs.org/en",
+      "category": ["Web Development"],
+      "about": "It is a Runtime Environment that lets you build web apps and use frameworks, like Next.js. "
+    },
+    {
+      "uniqueCode": "NIL-001",
+      "title": "Vercel",
+      "url": "https://vercel.com/",
+      "category": ["Deployment"],
+      "about": "Vercel is a PaaS (Platform as a Service) cloud model that hosts your website for free."
+    },
+    {
+      "uniqueCode": "NIL-002",
+      "title": "Replit",
+      "url": "https://replit.com",
+      "category": ["Deployment"],
+      "about": "Replit is a hosting platform where you can build projects in real-time together with your team."
+    },
+    {
+      "uniqueCode": "NIL-003",
+      "title": "Huawei App Gallery",
+      "url": "https://appgallery.huawei.com/",
+      "category": ["Deployment"],
+      "about": "Deploy your applications for free in Huawei."
+    },
+    {
+      "uniqueCode": "NIL-004",
+      "title": "Amazon App Store",
+      "url": "https://developer.amazon.com/apps-and-games",
+      "category": ["Deployment"],
+      "about": "Deploy your applications for free in Amazon."
+    },
+    {
+      "uniqueCode": "NIL-005",
+      "title": "Microsoft Store",
+      "url": "https://developer.microsoft.com/en-us/microsoft-store/register",
+      "category": ["Deployment"],
+      "about": "Deploy your applications in Microsoft Store."
+    },
+    {
+      "uniqueCode": "NIL-006",
+      "title": "Google Play Store",
+      "url": "https://play.google.com/console/u/0/signup",
+      "category": ["Deployment"],
+      "about": "Deploy your applications in Google Play Store."
+    },
+    {
+      "uniqueCode": "NIL-007",
+      "title": "Apple iOS Store",
+      "url": "https://developer.apple.com/programs/",
+      "category": ["Deployment"],
+      "about": "Deploy your applications in Apple App Store."
+    },
+    {
+      "uniqueCode": "NIL-008",
+      "title": "Xiaomi GetApps",
+      "url": "https://global.developer.mi.com/home",
+      "category": ["Deployment"],
+      "about": "Deploy your applications in GetApps."
+    },
+    {
+      "uniqueCode": "NIL-009",
+      "title": "Galaxy Store",
+      "url": "https://developer.samsung.com/galaxy-store",
+      "category": ["Deployment"],
+      "about": "Deploy your applications in Galaxy Store."
+    },
+    {
+      "uniqueCode": "JH-001",
+      "title": "v0",
+      "url": "https://v0.dev",
+      "category": ["AI"],
+      "about": "v0 builds a website for you and can deploy directly to Vercel."
+    },
+    {
+      "uniqueCode": "JH-002",
+      "title": "bolt",
+      "url": "https://bolt.new",
+      "category": ["AI"],
+      "about": "bolt builds a webiste with an npm project directory."
+    },
+    {
+      "uniqueCode": "JH-003",
+      "title": "Phind",
+      "url": "https://www.phind.com/",
+      "category": ["AI"],
+      "about": "This AI cites its sources when it gives you an output."
+    },
+    {
+      "uniqueCode": "JH-004",
+      "title": "Claude",
+      "url": " https://claude.ai/",
+      "category": ["AI"],
+      "about": "Claude is ChatGPT, but better."
+    },
+    {
+      "uniqueCode": "JH-005",
+      "title": "Google AI Studio",
+      "url": "https://aistudio.google.com/",
+      "category": ["AI"],
+      "about": "Start making your own chatbot powered by Gemini through Google AI Studio!"
+    },
+    {
+      "uniqueCode": "JH-006",
+      "title": "Hugging Face",
+      "url": "https://huggingface.co",
+      "category": ["AI"],
+      "about": "A platform where developers share AI models and datasets."
+    },
+    {
+      "uniqueCode": "JH-007",
+      "title": "Kaggle",
+      "url": "https://www.kaggle.com",
+      "category": ["AI"],
+      "about": "Platform for the largest Machine Learning & AI Community, with notebooks and competitions worth millions of dollars!"
+    },
+    {
+      "uniqueCode": "ED-001",
+      "title": "Choosing the Right Git Branching Strategy: A Comparative Analysis",
+      "url": "https://medium.com/@sreekanth.thummala/choosing-the-right-git-branching-strategy-a-comparative-analysis-f5e635443423",
+      "category": ["Git & GitHub"],
+      "about": "A guide how to choose the right branching strategy for your team."
+    },
+    {
+      "uniqueCode": "ED-002",
+      "title": "Getting Started with Git and GitHub",
+      "url": "https://www.coursera.org/learn/getting-started-with-git-and-github",
+      "category": ["Git & GitHub", "Online Course"],
+      "about": "A free online course to learn Git and GitHub."
+    },
+    {
+      "uniqueCode": "ED-003",
+      "title": "Conventional Commits",
+      "url": "https://www.conventionalcommits.org/en/v1.0.0/",
+      "category": ["Git & GitHub"],
+      "about": "A guide how to write good commit messages."
+    },
+    {
+      "uniqueCode": "ED-004",
+      "title": "Semantic Versioning",
+      "url": "https://semver.org",
+      "category": ["Git & GitHub"],
+      "about": "Learn software versioning works. "
+    },
+    {
+      "uniqueCode": "ED-005",
+      "title": "Markdown Live Preview",
+      "url": "https://markdownlivepreview.com",
+      "category": ["Git & GitHub"],
+      "about": "Learn and write Markdown with real-time preview side-by-side. "
+    },
+    {
+      "uniqueCode": "ED-006",
+      "title": "GPRM",
+      "url": "https://gprm.itsvg.in",
+      "category": ["Git & GitHub"],
+      "about": "Make a README profile instantly with GPRM! "
+    }
+  ]

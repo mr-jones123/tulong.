@@ -1,5 +1,5 @@
 "use client";
-import NavBar from "@/components/navbar";
+import NavBar from "@/components/data-table/navbar";
 
 export default function Features() {
   return (
