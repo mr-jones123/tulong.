@@ -1,10 +1,8 @@
 "use client"
-import NavBar from "@/components/data-table/navbar";
 import Image from "next/image";
 export default function notFound(){
     return(
         <div className="min-h-screen flex flex-col">
-            <NavBar />
         <div className="h-[700px] flex flex-col justify-center items-center">
                 <Image 
                 src="/confused_joe.jpg"
