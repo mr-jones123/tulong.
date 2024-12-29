@@ -17,7 +17,7 @@ export default function DialogVisit(){
             setIsOpen(true);
             localStorage.setItem("visited", "true");
         }
-    },);
+    },[]);
 
     return(
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
@@ -29,13 +29,13 @@ export default function DialogVisit(){
                     <DialogDescription className='text-feuGold italic'>
                         A platform where you can find all additional resources to help you excel in your academic journey.
                     </DialogDescription>
-                    <h3 className='text-feuGold text-xl'>
+                    <h3 className='text-feuGold text-lg'>
                         This website is an open-source project which means you can contribute to make it better! Feel free to clone the 
                         <a href = "https://github.com/mr-jones123/weCare..git">GitHub repository</a> or 
                         <a href="mailto:xylacap@gmail.com?subject=Subject%20Here&body=Body%20Here">contact me</a> if you have more questions. 
                     </h3>
                     <DialogFooter>
-                        <Button onClick={() => setIsOpen(false)}>Got it!</Button>
+                        <Button className='bg-feuGreen text-feuGold' onClick={() => setIsOpen(false)}>Got it!</Button>
                     </DialogFooter>
                 </DialogHeader>
             </DialogContent>
