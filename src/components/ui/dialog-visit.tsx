@@ -35,7 +35,7 @@ export default function DialogVisit(){
                         <a href="mailto:xylacap@gmail.com?subject=Subject%20Here&body=Body%20Here">contact me</a> if you have more questions. 
                     </h3>
                     <DialogFooter>
-                        <Button className='bg-feuGreen text-feuGold' onClick={() => setIsOpen(false)}>Got it!</Button>
+                        <Button className='bg-feuGreen text-feuGold border-none hover:bg-feuGold hover:text-feuGreen' onClick={() => setIsOpen(false)}>Got it!</Button>
                     </DialogFooter>
                 </DialogHeader>
             </DialogContent>
