@@ -12,10 +12,10 @@ export default function DialogVisit(){
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
-        const visited = localStorage.getItem("visited");
-        if (!visited) {
+        const visited = localStorage.getItem('visited');
+        if(!visited){
             setIsOpen(true);
-            localStorage.setItem("visited", "true");
+            localStorage.setItem('visited', 'true');
         }
     },[]);
 
@@ -30,12 +30,11 @@ export default function DialogVisit(){
                         A platform where you can find all additional resources to help you excel in your academic journey.
                     </DialogDescription>
                     <h3 className='text-feuGold text-lg'>
-                        This website is an open-source project which means you can contribute to make it better! Feel free to clone the 
-                        <a href = "https://github.com/mr-jones123/weCare..git">GitHub repository</a> or 
-                        <a href="mailto:xylacap@gmail.com?subject=Subject%20Here&body=Body%20Here">contact me</a> if you have more questions. 
+                        This website is available in PC only. Please wait for the mobile version to be released soon. In the meantime, feel free to
+                        <a href="mailto:xylacap@gmail.com?subject=Subject%20Here&body=Body%20Here" className='font-bold underline'> contact me</a> if you have more questions. 
                     </h3>
                     <DialogFooter>
-                        <Button className='bg-feuGreen text-feuGold border-none hover:bg-feuGold hover:text-feuGreen' onClick={() => setIsOpen(false)}>Got it!</Button>
+                        <Button className='bg-feuGreen text-feuGold border-none hover:bg-feuGold hover:text-feuGreen ' onClick={() => setIsOpen(false)}>Got it!</Button>
                     </DialogFooter>
                 </DialogHeader>
             </DialogContent>
