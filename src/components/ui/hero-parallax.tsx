@@ -103,10 +103,13 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20  px-4 w-full  left-0 top-0">
+    <div className="max-w-7xl relative mx-auto py-20  px-4 w-full  left-0 top-0 tracking-wide leading-1 space-y-14">
       <h1 className="text-2xl md:text-8xl font-black text-feuGold">
-        Build and ship<br /> your projects
+        Start and build<br /> your projects
       </h1> 
+      <p className="text-feuGold  md:text-2xl mt-4 semi-bold">
+        It gives you everything you need to kick-start your application!
+      </p>
     </div>
   );
 };

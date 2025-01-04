@@ -8,7 +8,7 @@ const inter = Inter({
   variable: '--font-inter',
 });
 export const metadata: Metadata = {
-  title: "weCare.",
+  title: "aral.",
   description: "Resources for all.",
   icons: "/favicon.ico"
 };

@@ -24,10 +24,10 @@ export default function Home() {
         <Macbook />
         <section className="flex flex-col items-center justify-center mt-56">
           <h1 className="md:text-6xl text-feuGold font-black text-center">
-            Resources and References for all.
+            Meet <span className="italic">aral.</span>
           </h1>
           <p className="text-feuGold text-center md:text-2xl mt-4 semi-bold">
-            weCare offers a centralized hub for Computer Science and IT
+            <span className="font-bold">aral.</span> offers a centralized hub for Computer Science and IT
             students, providing easy access to all the resources, tools, and
             references needed to excel in your academic journey. Search on the
             internet no more.
@@ -39,7 +39,7 @@ export default function Home() {
             titleComponent={
               <>
                 <h1 className="text-4xl font-medium text-feuGold">
-                  weCare helps you <br />
+                  aral. helps you <br />
                   <span className="text-4xl md:text-8xl font-black mt-1 leading-none">
                     Build Long-term Skills
                   </span>
@@ -61,12 +61,10 @@ export default function Home() {
         <section className="w-full py-40">
           <div className="container md:px-6">
             <div className="flex flex-col items-center space-y-8 text-center">
-              <h2 className="text-8xl font-black tracking-tighter text-feuGold">
-                weCare. because we care
-              </h2>
-              <p className="text-2xl text-feuGold">
-                Reach for the stars and start learning now!
-              </p>
+              <h1 className="text-8xl font-black tracking-tighter text-feuGold">
+                Tara, mag-Aral na!
+              </h1>
+              <h3 className="text-xl font-light italic tracking-tighter text-feuGold">Let's go and study</h3>
               <Button
                 onClick={() => console.log("Button clicked!")}
                 className="z-20 text-lg px-8 bg-feuGold text-feuGreen font-semibold hover:bg-feuGold/90 transition-colors"

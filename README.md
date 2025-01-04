@@ -1,14 +1,18 @@
-# weCare.
+# aral
 
-weCare. is a website where you can use free resources to boost both your academic career and developer path. It eliminates the hassle of searching for something like:
+**aral** means *"study"* in Tagalog. \
 
-“Top 10 best [x] in [x]”
+aral is a website tailored in the field of  Computer Science and Information Technology students where you can use free resources to boost both your academic career and developer path.
 
-“Best [x] tutorials about [x] language”
+It eliminates the hassle of searching for something like:
 
-“Tips and tricks on how to [x] and get [x]”
+**“Top 10 best [x] in [x]”**
 
-The tech field is a broad spectrum and it can difficult navigating the seas. weCare serves as the anchor and compass for you to decide what route you can take. 
+**“Best [x] tutorials about [x] language”**
+
+**“Tips and tricks on how to [x] and get [x]”**
+
+The tech field is a broad spectrum and it can difficult navigating the seas. aral serves as the anchor and compass for you to decide what route you can take. 
 
 # Provided by the best
 
