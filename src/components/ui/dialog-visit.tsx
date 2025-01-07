@@ -24,7 +24,7 @@ export default function DialogVisit(){
             <DialogContent>
                 <DialogHeader>
                     <DialogTitle className="text-3xl font-bold text-feuGold">
-                        Welcome to weCare!
+                        Welcome to aral!
                     </DialogTitle>
                     <DialogDescription className='text-feuGold italic'>
                         A platform where you can find all additional resources to help you excel in your academic journey.
